@@ -1,0 +1,26 @@
+<svg width="360" height="88" viewBox="0 0 360 88" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="bg2" x1="0" y1="0" x2="88" y2="88" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#111827"/>
+      <stop offset="1" stop-color="#0B1220"/>
+    </linearGradient>
+    <linearGradient id="arc2" x1="16" y1="56" x2="72" y2="56" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#F97316"/>
+      <stop offset="1" stop-color="#EA580C"/>
+    </linearGradient>
+  </defs>
+
+  <!-- icon badge -->
+  <rect width="88" height="88" rx="20" fill="url(#bg2)"/>
+  <line x1="13" y1="61.5" x2="75" y2="61.5" stroke="#1E293B" stroke-width="2"/>
+  <path d="M16 56 Q44 34 72 56" fill="none" stroke="url(#arc2)" stroke-width="4.5" stroke-linecap="round"/>
+  <line x1="26" y1="53" x2="26" y2="61.5" stroke="url(#arc2)" stroke-width="3.2" stroke-linecap="round"/>
+  <line x1="44" y1="47" x2="44" y2="61.5" stroke="url(#arc2)" stroke-width="3.2" stroke-linecap="round"/>
+  <line x1="62" y1="53" x2="62" y2="61.5" stroke="url(#arc2)" stroke-width="3.2" stroke-linecap="round"/>
+  <path d="M34 30 L39.5 30 L42 24 L46 36 L49.5 30 L55 30"
+        fill="none" stroke="#FFFFFF" stroke-width="2.8" stroke-linecap="round" stroke-linejoin="round"/>
+
+  <!-- wordmark -->
+  <text x="104" y="43" font-family="Arial, Helvetica, sans-serif" font-size="30" font-weight="700" fill="#111827">Seva Setu</text>
+  <text x="104" y="65" font-family="Arial, Helvetica, sans-serif" font-size="13" letter-spacing="1.5" fill="#EA580C">HOME PATHOLOGY, DELIVERED</text>
+</svg>

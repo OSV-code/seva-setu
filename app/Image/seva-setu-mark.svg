@@ -1,0 +1,30 @@
+<svg width="512" height="512" viewBox="0 0 512 512" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="512" y2="512" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#111827"/>
+      <stop offset="1" stop-color="#0B1220"/>
+    </linearGradient>
+    <linearGradient id="arc" x1="96" y1="330" x2="416" y2="330" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#F97316"/>
+      <stop offset="1" stop-color="#EA580C"/>
+    </linearGradient>
+  </defs>
+
+  <!-- app icon background -->
+  <rect width="512" height="512" rx="112" fill="url(#bg)"/>
+
+  <!-- water/ground line the bridge spans -->
+  <line x1="76" y1="358" x2="436" y2="358" stroke="#1E293B" stroke-width="10" stroke-linecap="round"/>
+
+  <!-- bridge deck -->
+  <path d="M96 330 Q256 200 416 330" fill="none" stroke="url(#arc)" stroke-width="26" stroke-linecap="round"/>
+
+  <!-- bridge pillars -->
+  <line x1="150" y1="316" x2="150" y2="358" stroke="url(#arc)" stroke-width="18" stroke-linecap="round"/>
+  <line x1="256" y1="272" x2="256" y2="358" stroke="url(#arc)" stroke-width="18" stroke-linecap="round"/>
+  <line x1="362" y1="316" x2="362" y2="358" stroke="url(#arc)" stroke-width="18" stroke-linecap="round"/>
+
+  <!-- pulse / care mark above the bridge apex -->
+  <path d="M198 176 L228 176 L242 148 L262 204 L278 176 L314 176"
+        fill="none" stroke="#FFFFFF" stroke-width="16" stroke-linecap="round" stroke-linejoin="round"/>
+</svg>
